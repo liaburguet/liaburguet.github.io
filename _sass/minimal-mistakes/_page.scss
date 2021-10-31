@@ -6,6 +6,7 @@
   @include clearfix;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 1em;
   padding-left: 1em;
   padding-right: 1em;
   -webkit-animation: $intro-transition;
@@ -110,21 +111,24 @@ body {
 		}
 	}
 
-  p,
   li,
   dl {
-    font-size: 1em;
+    font-size: 20px;
   }
 
   /* paragraph indents */
   p {
     margin: 0 0 $indent-var;
+    font-size: 18px;
+    line-height: 1.7em;
 
     /* sibling indentation*/
     @if $paragraph-indent == true {
+      text-indent: $indent-var;
+
       & + p {
         text-indent: $indent-var;
-        margin-top: -($indent-var);
+        // margin-top: -($indent-var);
       }
     }
   }
@@ -255,9 +259,7 @@ body {
    ========================================================================== */
 
 .page__share {
-  margin-top: 2em;
   padding-top: 1em;
-  border-top: 1px solid $border-color;
 
   @include breakpoint(max-width $small) {
     .btn span {

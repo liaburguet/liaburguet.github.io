@@ -71,6 +71,12 @@
     }
   }
 
+  &--social-share {
+    border-radius: 50%;
+    padding: 0.5em;
+    line-height: 1.25em;
+  }
+
   /* disabled */
   &--disabled {
     pointer-events: none;
