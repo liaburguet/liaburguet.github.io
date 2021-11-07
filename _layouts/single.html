@@ -42,9 +42,14 @@ layout: default
             </nav>
           </aside>
         {% endif %}
-        {{ content }}
+        {{ content | beautify }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+        <div class="page__divider"></div>
       </section>
+
+      {% if page.footer %}
+        <footer class="page__footnote">{{ page.footer }}</footer>
+      {% endif %}
 
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}

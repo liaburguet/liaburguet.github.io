@@ -83,6 +83,16 @@ body {
   }
 }
 
+.page__divider {
+  border-top: 1px solid $border-color;
+  margin: 0 30% 40px 30%;
+}
+
+.page__footnote {
+  font-style: italic;
+  font-size: 16px;
+}
+
 .page__lead {
   font-family: $global-font-family;
   font-size: $type-size-4;
