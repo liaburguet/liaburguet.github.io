@@ -20,7 +20,7 @@ title                    : "Lía Burguet"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Lía Burguet"
-description              : "Blog de la mejor escritora del mundo 😘"
+description              : ""
 url                      : "https://www.liaburguet.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "liaburguet/liaburguet.github.io"
