@@ -131,6 +131,7 @@ body {
     margin: 0 0 $indent-var;
     font-size: 16px;
     line-height: 1.7em;
+    text-align: justify;
 
     /* sibling indentation*/
     @if $paragraph-indent == true {
