@@ -1,4 +1,5 @@
 ---
+title: 'Como los erizos'
 published: true
 ---
 Al igual que su madre solía llamar a Granada la ciudad blanca, por la nieve que hasta ella derramaba la sierra y lo mucho que ambas gustaban de pasear cada recodo de esos senderos, ebrios de palidez, cada vez que llegaba la invernada. Ahora solo podía hacerlo sola, o quizás era lo único que le merecía ya la pena. Las garras de ese invierno tan oscuro se llevaron a su madre lejos, dejando tan solo el frío, y consideraba terriblemente ingrato compartir aquello con nadie más. 
