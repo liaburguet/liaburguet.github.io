@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Al igual que su madre solía llamar a Granada la ciudad blanca, por la nieve que hasta ella derramaba la sierra y lo mucho que ambas gustaban de pasear cada recodo de esos senderos, ebrios de palidez, cada vez que llegaba la invernada. Ahora solo podía hacerlo sola, o quizás era lo único que le merecía ya la pena. Las garras de ese invierno tan oscuro se llevaron a su madre lejos, dejando tan solo el frío, y consideraba terriblemente ingrato compartir aquello con nadie más. 
 
@@ -15,4 +15,4 @@ En la mañana del 24 de diciembre no consiguió salir de la cama. Sus ojos cegad
 Cuando el tenue sol del día de Navidad fue a despertarla solo encontró un montículo de pelo y ropa invernal, bajo el cual asomó con cautela un pequeño erizo, moviendo la nariz de un lado a otro, que se abrió camino entre la nieve como si esta le quemase. Y se cuenta que un lugareño lo vio alejarse a toda prisa, se acercó hasta el sitio y, extrañado, observó que aquello de entre lo que escapó era la ropa y pertenencias de la mujer, de la que no quedó otro rastro, más que su coche inerte. 
 
 Investigado el caso a raudales y sin explicación coherente alguna se hizo famoso entre las gentes del lugar, y terminó por convertirse en una de esas dudosas leyendas con múltiples versiones. La más extendida fue, curiosamente, la más parecida a la realidad, la de la mujer que, desconsolada al no hallar la distancia óptima con los seres más queridos, terminó perdiéndolos y convirtiéndose en erizo para semejarse a ellos. Otra de las interpretaciones añade, además, que quien sube en Nochebuena a Sierra Nevada y camina lo suficiente, terminará por encontrarla guardada de un corro de esas criaturas. Sin rezo ni temblor estará situada entre ellas con detalle y estrategia, descubierta al fin esa distancia que nos salve. Sin sufrir el dolor desnudo de las espinas y sin sentir demasiado el frío. 
-Como los erizos.  
+Como los erizos.
