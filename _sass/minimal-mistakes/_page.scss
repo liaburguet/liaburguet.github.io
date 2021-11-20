@@ -447,6 +447,10 @@ body {
   transition: $global-transition;
   max-width: 420px;
 
+  &.form-container {
+    border-bottom: 1px solid $border-color;
+  }
+
   &.disabled {
     input,
     button,
@@ -494,14 +498,14 @@ body {
   }
 }
 
-.comment__content-wrapper {
-  float: right;
-  width: calc(100% - 60px);
+// .comment__content-wrapper {
+//   float: right;
+//   width: calc(100% - 60px);
 
-  @include breakpoint($large) {
-    width: calc(100% - 100px);
-  }
-}
+//   @include breakpoint($large) {
+//     width: calc(100% - 100px);
+//   }
+// }
 
 .comment__author {
   margin: 0;
