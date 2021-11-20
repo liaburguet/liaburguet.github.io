@@ -13,32 +13,6 @@
     {% when "staticman_v2" %}
       <section id="static-comments">
         {% if site.repository and site.comments.staticman.branch %}
-          <!-- Start static comments -->
-          <div class="js-comments">
-            {% if site.data.comments[page.slug] %}
-              <h4 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_title | default: "Comments" }}</h4>
-              {% assign comments = site.data.comments[page.slug] %}
-
-              <!-- In order to sort by date we must have an array of objects, not an array of arrays, so
-                    create a new array of plain comment objects and then sort by the comment date. -->
-              {% assign commentObjects = '' | split: '' %}
-              {% for comment in comments %}
-                {% assign commentObject = comment[1] %}
-                {% assign commentObjects = commentObjects | push: commentObject %}
-              {% endfor %}
-              {% assign comments = commentObjects | sort: "date" %}
-
-              {% for comment in comments %}
-                {% assign email = comment.email %}
-                {% assign name = comment.name %}
-                {% assign url = comment.url %}
-                {% assign date = comment.date %}
-                {% assign message = comment.message %}
-                {% include comment.html index=forloop.index email=email name=name url=url date=date message=message %}
-              {% endfor %}
-            {% endif %}
-          </div>
-          <!-- End static comments -->
 
           <!-- Start new comment form -->
           <div class="page__comments-form">
@@ -91,6 +65,33 @@
           </div>
           <!-- End new comment form -->
           {% if site.reCaptcha.siteKey %}<script async src="https://www.google.com/recaptcha/api.js"></script>{% endif %}
+
+          <!-- Start static comments -->
+          <div class="js-comments">
+            {% if site.data.comments[page.slug] %}
+              <h4 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_title | default: "Comments" }}</h4>
+              {% assign comments = site.data.comments[page.slug] %}
+
+              <!-- In order to sort by date we must have an array of objects, not an array of arrays, so
+                    create a new array of plain comment objects and then sort by the comment date. -->
+              {% assign commentObjects = '' | split: '' %}
+              {% for comment in comments %}
+                {% assign commentObject = comment[1] %}
+                {% assign commentObjects = commentObjects | push: commentObject %}
+              {% endfor %}
+              {% assign comments = commentObjects | sort: "date" %}
+
+              {% for comment in comments %}
+                {% assign email = comment.email %}
+                {% assign name = comment.name %}
+                {% assign url = comment.url %}
+                {% assign date = comment.date %}
+                {% assign message = comment.message %}
+                {% include comment.html index=forloop.index email=email name=name url=url date=date message=message %}
+              {% endfor %}
+            {% endif %}
+          </div>
+          <!-- End static comments -->
         {% endif %}
       </section>
     {% when "staticman" %}
