@@ -89,6 +89,8 @@ comments:
   # an error will be thrown.
   requiredFields: ["name", "message"]
 
+  pullRequestBody: "@lia-burguet\n\nHola Julia,\n\nHay un nuevo comentario :tada:. Echale un vistazillo a ver si te mola."
+
   # List of transformations to apply to any of the fields supplied. Keys are
   # the name of the field and values are possible transformation types.
   transforms:
