@@ -148,6 +148,10 @@ body {
     }
   }
 
+  &.page__content--align-left p {
+    text-align: left;
+  }
+
   a:not(.btn) {
     &:hover {
       text-decoration: underline;
