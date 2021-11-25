@@ -1,4 +1,9 @@
 {% assign document = post | default: page %}
+{% if document.note %}
+  <p class="page__meta">
+    <span class="page__footnote">{{ document.note }}</span>
+  </p>
+{% endif %}
 {% if document.read_time or document.show_date %}
   <p class="page__meta">
     {% if document.show_date and document.date %}
